@@ -9,4 +9,4 @@ node_modules/
 #ignored js files
 scripts/app_shell.js
 scripts/home.js
-scrtips/utils.js
+scripts/utils.js
