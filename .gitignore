@@ -1,6 +1,7 @@
 .vscode/*
 !.vscode/tasks.config
 
+#ignoring all the node modules which are specific to this project
 node_modules/
 
 *.d.ts
@@ -8,3 +9,4 @@ node_modules/
 #ignored js files
 scripts/app_shell.js
 scripts/home.js
+scrtips/utils.js
