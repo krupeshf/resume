@@ -6,7 +6,7 @@ define(function (require) {
     //when routes are activated, navigation completed, etc. system will debug few outputs
     system.debug(false);
 
-    app.title = "Krupesh";
+    app.title = "PageTitle";
 
     app.configurePlugins({
         router: true,

@@ -1,0 +1,10 @@
+.vscode/*
+!.vscode/tasks.config
+
+node_modules/
+
+*.d.ts
+
+#ignored js files
+scripts/app_shell.js
+scripts/home.js
