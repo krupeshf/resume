@@ -1,1 +1,15 @@
+//import styles specific to page
 @import "home.less";
+
+//below are styles which are general to whole application
+
+//one of the material design guidelines, when you hover, button should elevate
+.btn:hover {
+    box-shadow: 0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2);
+}
+
+//by default when user selects a text, it is of blue color
+//changing its color to yellow
+::selection {
+    background-color: #EEFF41;
+}
