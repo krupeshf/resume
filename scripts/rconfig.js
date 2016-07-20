@@ -1,6 +1,6 @@
 require.config({
     "urlArgs": "v=0.0.1",
-    "baseUrl": "/scripts/",
+    "baseUrl": "/resume/scripts/",
     "paths": {
         "lib": "../lib/",
 
