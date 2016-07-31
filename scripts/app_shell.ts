@@ -18,9 +18,16 @@ class AppShell {
         var routes: DurandalRouteConfiguration[] = [{
             route: "",
             moduleId: "home",
-            title: "PageTitle",
-        }
-        ];
+            title: "Resume",
+        },{
+            route: "experience",
+            moduleId: "experience",
+            title: "Experience",
+        },{
+            route: "education",
+            moduleId: "education",
+            title: "Education",
+        }];
         router.map(routes);
         return router.activate();
     }
