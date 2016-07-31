@@ -5,6 +5,9 @@
 all:
 	@lessc -s --clean-css styles/styles.less styles/styles.css
 
+typescript:
+	tsc -p ./scripts
+
 #when you do watch, we can use fswatch(from brew) to do a file system watch
 #-d is for directory
 #-I is for inclusion of regular expression files
