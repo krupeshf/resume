@@ -1,6 +1,7 @@
 /// <reference path="../lib/lodash/lodash.d.ts"/>
 /// <reference path="../lib/jquery/jquery.d.ts"/>
 /// <reference path="../lib/bootstrap/bootstrap.d.ts"/>
+/// <reference path="../lib/durandal/durandal.d.ts"/>
 
 declare var require: any;
 
@@ -9,7 +10,7 @@ import u = require("lodash");
 import $ = require("jquery");
 import bootstrap = require("bootstrap");
 
-let router = require("plugins/router");
+import router = require("plugins/router");
 import utils = require("utils");
 
 //cannot use export class AppShell
@@ -19,11 +20,13 @@ class AppShell {
     public router = router;
     public activate() {
         console.debug("Setting routes for SPA");
-        router.map([{
+        var routes: DurandalRouteConfiguration[] = [{
             route: "",
             moduleId: "home",
             title: "PageTitle",
-        }]);
+        }
+        ];
+        router.map(routes);
         return router.activate();
     }
 
