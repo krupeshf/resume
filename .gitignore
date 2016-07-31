@@ -4,8 +4,11 @@
 #ignoring all the node modules which are specific to this project
 node_modules/
 
-scripts/*.d.ts
-scripts/*.js
+# `**` pattern is for ignoring in scripts folder as well as any sub folder
+scripts/**/*.js
+
+#ignoring any definition files in scripts folder
+scripts/**/*.d.ts
 
 #do not ignore few important js files
 !scripts/rconfig.js

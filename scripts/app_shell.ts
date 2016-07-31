@@ -15,30 +15,36 @@ class AppShell {
     public router = router;
     public activate() {
         console.debug("Setting routes for SPA");
-        var routes: DurandalRouteConfiguration[] = [{
-            route: "",
-            moduleId: "home",
-            title: "Resume",
-        },{
-            route: "experience",
-            moduleId: "experience",
-            title: "Experience",
-        },{
-            route: "education",
-            moduleId: "education",
-            title: "Education",
-        }];
-        router.map(routes);
-        return router.activate();
+        let routes: DurandalRouteConfiguration[] = [
+            {
+                route: "",
+                moduleId: "home",
+                title: "Resume",
+            }, {
+                route: "experience",
+                moduleId: "experience",
+                title: "Experience",
+            }, {
+                route: "education",
+                moduleId: "education",
+                title: "Education",
+            }, {
+                route: "skills*details", //`details` part can be named anything
+                moduleId: "skills_shell",
+                title: "Skills",
+            }
+        ];
+        this.router.map(routes);
+        return this.router.activate();
     }
 
     public attached() {
         console.log(bootstrap);
-        $('.dropdown-toggle').dropdown();
+        $(".dropdown-toggle").dropdown();
     }
 
     public compositionComplete() {
-        $('.dropdown-toggle').dropdown();
+        $(".dropdown-toggle").dropdown();
     }
 
 }
