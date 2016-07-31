@@ -1,5 +1,5 @@
 .vscode/*
-!.vscode/tasks.config
+!.vscode/tasks.json
 
 #ignoring all the node modules which are specific to this project
 node_modules/
