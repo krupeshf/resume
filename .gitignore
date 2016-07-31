@@ -5,13 +5,11 @@
 node_modules/
 
 scripts/*.d.ts
+scripts/*.js
 
-#ignored js files
-scripts/app_shell.js
-scripts/home.js
-scripts/utils.js
-scripts/experience.js
-scripts/education.js
+#do not ignore few important js files
+!scripts/rconfig.js
+!scripts/setup.js
 
 #ignore style css file as it is compiled
 styles/styles.css
