@@ -12,6 +12,30 @@ class SkillsShell {
                 route: "web",
                 moduleId: "skills/web",
                 title: "Web Tech",
+            },{
+                route: "database",
+                moduleId: "skills/database",
+                title: "Databases",
+            },{
+                route: "language",
+                moduleId: "skills/language",
+                title: "Languages",
+            },{
+                route: "automation",
+                moduleId: "skills/automation",
+                title: "Automation",
+            },{
+                route: "platform",
+                moduleId: "skills/platform",
+                title: "Platforms",
+            },{
+                route: "tool",
+                moduleId: "skills/tool",
+                title: "Tools",
+            },{
+                route: "server",
+                moduleId: "skills/server",
+                title: "Servers",
             }
         ];
         this.router.map(routes);
