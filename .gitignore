@@ -10,3 +10,6 @@ scripts/*.d.ts
 scripts/app_shell.js
 scripts/home.js
 scripts/utils.js
+
+#ignore style css file as it is compiled
+styles/styles.css
