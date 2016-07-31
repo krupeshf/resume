@@ -1,8 +1,3 @@
-/// <reference path="../lib/lodash/lodash.d.ts"/>
-/// <reference path="../lib/jquery/jquery.d.ts"/>
-/// <reference path="../lib/bootstrap/bootstrap.d.ts"/>
-/// <reference path="../lib/durandal/durandal.d.ts"/>
-
 declare var require: any;
 
 //use import where the definitions are available
