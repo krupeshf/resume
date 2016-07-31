@@ -1,4 +1,5 @@
 require.config({
+    //so that everytime files are updated, version can be increased and users will get new files
     "urlArgs": "v=0.0.1",
     "baseUrl": "/scripts/",
     "paths": {

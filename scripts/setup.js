@@ -6,7 +6,10 @@ define(function (require) {
     //when routes are activated, navigation completed, etc. system will debug few outputs
     system.debug(false);
 
-    app.title = "PageTitle";
+    //app title can be project name
+    //if you kept it empty then there will be no second part of any page title
+    //do not remove it
+    app.title = "Krupesh";
 
     app.configurePlugins({
         router: true,
