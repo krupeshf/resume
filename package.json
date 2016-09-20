@@ -8,10 +8,12 @@
   },
   "devDependencies": {
     "requirejs": "^2.2.0",
-    "tsc": "^1.20150623.0"
+    "tsc": "^1.20150623.0",
+    "surge": "latest"
   },
   "scripts": {
-    "preinstall": "npm i -g less && npm i -g less-plugin-clean-css"
+    "preinstall": "npm i -g less && npm i -g less-plugin-clean-css",
+    "deploy": "surge ."
   },
   "repository": {
     "type": "git",
