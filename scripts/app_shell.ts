@@ -23,11 +23,11 @@ class AppShell {
             }, {
                 route: "experience/appvine",
                 moduleId: "experience_appvine",
-                title: "Experience",
+                title: "AppVine",
             }, {
                 route: "experience/adobe",
-                moduleId: "experience_appvine",
-                title: "Experience",
+                moduleId: "experience_adobe",
+                title: "Adobe",
             }, {
                 route: "education",
                 moduleId: "education",
