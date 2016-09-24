@@ -21,8 +21,12 @@ class AppShell {
                 moduleId: "home",
                 title: "Resume",
             }, {
-                route: "experience",
-                moduleId: "experience",
+                route: "experience/appvine",
+                moduleId: "experience_appvine",
+                title: "Experience",
+            }, {
+                route: "experience/adobe",
+                moduleId: "experience_appvine",
                 title: "Experience",
             }, {
                 route: "education",
